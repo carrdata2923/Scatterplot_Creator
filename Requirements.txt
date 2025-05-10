@@ -3,4 +3,5 @@ matplotlib
 pandas  # If you use pandas
 seaborn # If you use seaborn
 numpy
-pandas
+seaborn
+ipywidgets
