@@ -28,7 +28,7 @@ def create_interactive_scatter_plot():
 
             if st.button("Generate Scatter Plot"):
                 if x_axis and y_axis and x_axis != y_axis:
-                    plt.figure(figsize=(10, 6))
+                    plt.figure(figsize=(20, 12))
                     sns.scatterplot(x=df[x_axis], y=df[y_axis])
                     sns.regplot(x=df[x_axis], y=df[y_axis], scatter=False, color='red')
                     plt.title(f'Scatter Plot of {y_axis} vs {x_axis}')
